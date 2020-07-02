@@ -1,0 +1,14 @@
+$background-dark: #512DA8;
+$fl-white: floralwhite;
+$background-pale: rgb(231, 211, 228);
+
+.modal-header{
+    background-color: $background-dark;
+    color: $fl-white;
+    .close-btn{
+        color: $fl-white;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
+}
